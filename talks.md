@@ -18,7 +18,7 @@ excerpt: "Talks I've given"
     - @ BSides Manchester [Beersides](https://www.bsidesmcr.org.uk/beersides-pre-party) (August 15)
     - @ [DC44141](https://twitter.com/DC44141) (July 3)
     - @ Abertay Ethical Hacking Society (May 9)
-  - HTTP is Dead, Long Live TLS 1.3 [DC44141](https://twitter.com/DC44141) (February 6)
+  - HTTP is Dead, Long Live TLS 1.3 @ [DC44141](https://twitter.com/DC44141) (February 6)
 
 
 ## 2017
