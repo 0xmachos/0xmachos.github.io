@@ -77,9 +77,7 @@ macOS maintains an SQLite database of all files which have been assigned the `co
 
 The structure of a database entry for the above example:
 
-|LSQuarantineEventIdentifier |  LSQuarantineTimeStamp     | LSQuarantineAgentBundleIdentifier | LSQuarantineAgentName        | LSQuarantineDataURLString  | LSQuarantineSenderName            | LSQuarantineSenderAddress    | LSQuarantineTypeNumber     | LSQuarantineOriginTitle           | LSQuarantineOriginURLString  | LSQuarantineOriginAlias
-|----------------------------| |
-|`B555DB5F-D82A-408B-B9A6-D4F4012FD520` | `570726604.559004`  | `com.apple.Safari` | `Safari` | `https://github-production-release-asset-2e65be.s3.amazonaws.com/61398460/5d9e9624-8205-11e8-9b57-b4138878a31b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190201T150926Z&X-Amz-Expires=300&X-Amz-Signature=61875b22f5be48f9867a792665857c58ad43baf22547bb149963bca545d337fa&X-Amz-SignedHeaders=host&actor_id=30755149&response-content-disposition=attachment%3B%20filename%3DBrisk.app.tar.gz&response-content-type=application%2Foctet-stream` | `NULL` | `NULL` | `0` | `NULL` | `https://github.com/br1sk/brisk/releases` | `NULL`
+<script src="https://gist.github.com/0xmachos/73711442b346a1cb3b7b43256b74f66c.js"></script>
 
 The most interesting fields:
 
