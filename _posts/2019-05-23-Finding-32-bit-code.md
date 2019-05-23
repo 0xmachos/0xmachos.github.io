@@ -49,6 +49,6 @@ This finds significantly more 32-bit code:
 /System/Library/Printers/Libraries/libConverter.dylib
 ```
 
-Base on my limited testing I'd advise following Rich's reccomendation, use `mdfind` to find 32-bit code.
+Base on my limited testing I'd advise following Rich's recommendation, use `mdfind` to find 32-bit code.
 
 {% include figure image_path="/img/dogs/dachshund01.jpg" alt="Dachshund photo by Carissa Weiser on Unsplash" caption="Photo by Carissa Weiser on Unsplash" %}
