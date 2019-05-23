@@ -13,7 +13,7 @@ During the [Platform State of the Union](https://developer.apple.com/videos/play
 
 # `system_profiler`
 
-This one-liner is curtesy of [@MacLemon](https://twitter.com/MacLemon). 
+This one-liner is courtesy of [@MacLemon](https://twitter.com/MacLemon). 
 
 ```bash
 system_profiler SPApplicationsDataType \
