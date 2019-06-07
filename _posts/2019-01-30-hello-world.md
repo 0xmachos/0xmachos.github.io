@@ -1,10 +1,10 @@
 ---
 title:      "Hello, World!"
+subtitle:	""
 excerpt:    ""
-tags:
-    - Admin
-header:
-  teaser: "/img/dogs/pup0.jpg"
+share-img: 	"/img/dogs/pup0.jpg"
+image:		""
+tags: 		[Admin]
 ---
 
 I wanted to write up some of the "research" I've done recently and GitHub pages seemed like the easiest[^1] option so here we are.
