@@ -3,7 +3,6 @@ title:		"Finding 32-bit code on macOS"
 subtitle:	""
 excerpt:	"During the Platform State of the Union at WWDC 2018 Apple confirmed that macOS Mojave (10.14.x) will be the last version of macOS to run 32-bit code."
 share-img:	"/img/posts/mojave-32-bit-apps.png"
-image:		""
 tags:		[Mojave]
 ---
 

@@ -3,7 +3,6 @@ title:      "Hello, World!"
 subtitle:	""
 excerpt:    ""
 share-img: 	"/img/dogs/pup0.jpg"
-image:		""
 tags: 		[Admin]
 ---
 

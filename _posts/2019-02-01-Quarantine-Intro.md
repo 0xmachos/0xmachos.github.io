@@ -3,7 +3,6 @@ title:      "Quarantine Introduction"
 subtitle:   ""
 excerpt:   "Quarantine, added in OS X Leopard (10.5), was the forerunner to Gatekeeper. It adds the extended attribute com.apple.quarantine to files downloaded from the internet, so long as the downloading application is quarantine aware."
 share-img:  "/img/division_quarantine.jpg"
-image:      ""
 tags:       [Quarantine, Gatekeeper]
 ---
 
