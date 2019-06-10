@@ -64,7 +64,7 @@ This was my favorite talk, the bug is hilariously simple yet powerful. The [abst
 
 The vulnerability in question is `CVE-2019-8561`. 
 
-Jaron dived straight in with a demo of LPE aspect of the bug. I answered a text and by the time I looked back up he had, it was so simple I thought I must have missed something.
+Jaron dived straight in with a demo of LPE aspect of the bug. I answered a text and by the time I looked back up he had root, it was so simple I thought I must have missed something.
 
 Essentially this is a Time of Check Time of Use (TOCTOU) bug. Once `Installer` loads a `.pkg` you can unpack the `.pkg` modify it, repack it and `installer` will execute the modified files. All while still showing that the package is signed.
 
