@@ -68,7 +68,7 @@ Jaron dived straight in with a demo of LPE aspect of the bug. I answered a text 
 
 Essentially this is a Time of Check Time of Use (TOCTOU) bug. Once `Installer` loads a `.pkg` you can unpack the `.pkg` modify it, repack it and `installer` will execute the modified files. All while still showing that the package is signed.
 
-An excellent find, really neat but that's trivial to exploit. I think his Bash script exploit was around 5 lines. 
+An excellent find, really neat bug that's trivial to exploit. I think his Bash script exploit was around 5 lines. 
 
 At this point I couldn't see how we could use this to bypass SIP. 
 
