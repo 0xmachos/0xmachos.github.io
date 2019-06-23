@@ -36,11 +36,11 @@ excerpt: "Talks I've given"
 ## 2015 
   - 2014 in Review @ Abertay Ethical Hacking Society (21 January)
   - Stuxnet @ Abertay Ethical Hacking Society
-  - Crypto Wars 2.0[^2] @ Bsides Vienna (November 21)
+  - Crypto Wars 2.0[^2] @ BSides Vienna (November 21)
 
 
 ## 2014
   - Ensuring Password Cracking Ain't Easy @ [BSides Manchester](https://www.bsidesmcr.org.uk/bsidesmcr2014)
 
 [^1]: [Sources](https://gist.github.com/0xmachos/814d6eeb1ed16226d0c28331d85ed86d)
-[^2]: Stand in for a cancelled talk
+[^2]: Stand in for a canceled talk
