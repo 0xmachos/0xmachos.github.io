@@ -6,7 +6,6 @@ excerpt: "Talks I've given"
 
 ## 2019
   - ISIS Online: Junaid Hussain[^1]:
-    - @ [SteelCon](https://www.steelcon.info) (July 13)
     - @ [BSides London](https://www.securitybsides.org.uk) (June 5)
     - @ [Securi-Tay 2019](https://securi-tay.co.uk) (March 1)
 
