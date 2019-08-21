@@ -11,7 +11,7 @@ I took my first trip to Monaco for Objective by the Sea ([#OBTS](https://twitter
 
 It was wonderful to finally meet so many people I know from Twitter.
 
-Every talk was excellent but I'll let the videos speak for themselves, below I'll briefly cover my three favorite talks. 
+Every talk was excellent but I'll let [the videos](https://www.youtube.com/playlist?list=PLliknDIoYszvTDaWyTh6SYiTccmwOsws8) speak for themselves, below I'll briefly cover my three favorite talks. 
 
 # "Fun with Mac Malware Attribution"
 
