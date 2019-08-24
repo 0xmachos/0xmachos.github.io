@@ -27,20 +27,11 @@ Once this change is applied there's no longer a delay. The authentication flow o
 
 You need to edit the `.VMX` file which is located inside the VMBundle of your VM. While it appears as a single file in Finder the VMBundle is actually an archive. This is where your VMs hard disk and a bunch of other files and logs reside. See [VMware KB article 1021016](https://kb.vmware.com/s/article/1021016) for more info on VMbundle contents.  
 
-![no-alignment](/img/posts/vm-auth/vmbundles.png)
+**Update:** Per [@macshome's tweet](https://twitter.com/macshome/status/1165278026101329920) there's a much easier way to edit the `.vmx` file than the method I describe below.  
 
-By default VMware saves your VMs to:
-```
-$HOME/Virtual Machines
-```
+In the Virtual Machine Library (⇧⌘L) right click the VM then press the option key (⌥) then click "Open Config File in Editor". This will open the VMs `.vmx` file in TextEdit. 
 
-You can either `cd` into the VMBundle
-![no-alignment](/img/posts/vm-auth/command-line.png)
-
-or use the Finder's "Show Package Contents" context menu option.
-![no-alignment](/img/posts/vm-auth/finder.png)
-
-Once you're inside the VMBundle open the VMs `.vmx` file (from the examples above it would be `macOS Mojave.vmx`) and change 
+With the `.vmx` file open in TextEdit change
 
 ```
 board-id.reflectHost = "TRUE"
