@@ -23,11 +23,11 @@ You can see an example of this delay, twenty four (24) seconds, in the below vid
 Once this change is applied there's no longer a delay. The authentication flow only takes six (6) seconds.
 ![no-alignment](/img/posts/vm-auth/auth-fixed.mov) 
 
-## Editing the `.VMX` File
+## Editing the `.vmx` File
 
-You need to edit the `.VMX` file which is located inside the VMBundle of your VM. While it appears as a single file in Finder the VMBundle is actually an archive. This is where your VMs hard disk and a bunch of other files and logs reside. See [VMware KB article 1021016](https://kb.vmware.com/s/article/1021016) for more info on VMbundle contents.  
+You need to edit the `.vmx` file which is located inside the VMBundle of your VM. While it appears as a single file in Finder the VMBundle is actually an archive. This is where your VMs hard disk and a bunch of other files and logs reside. See [VMware KB article 1021016](https://kb.vmware.com/s/article/1021016) for more info on VMbundle contents.  
 
-**Update:** Per [@macshome's tweet](https://twitter.com/macshome/status/1165278026101329920) there's a much easier way to edit the `.vmx` file than the method I describe below.  
+**Update:** Per [@macshome's tweet](https://twitter.com/macshome/status/1165278026101329920) there's a much easier way to edit the `.vmx` file[^1].
 
 In the Virtual Machine Library (⇧⌘L) right click the VM then press the option key (⌥) then click "Open Config File in Editor". This will open the VMs `.vmx` file in TextEdit. 
 
@@ -46,4 +46,6 @@ board-id.reflectHost = "FALSE"
 **The `.vmx` file is included in snapshots** so you'll want to perform this edit as soon as you create your VM. If you make this change and restore a snapshot you created before editing the `.vmx` file the change won't persist, the **previous state of the `.vmx` file will be restored by the snapshot**.
 
 {% include figure image_path="/img/dogs/collie0.jpg" alt="Happy border collie with tongue out lying on grass" caption="Photo by daniel plan on Unsplash" %}
+
+[^1]: [Original instructions](https://github.com/0xmachos/0xmachos.github.io/commit/c8a849ba49a5bfdafd6b9037813382c2715ff9d5?short_path=f2c8ab1#diff-f2c8ab1295894b3aafa5bd8dee0d0222)
 
