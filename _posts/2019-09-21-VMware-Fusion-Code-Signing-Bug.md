@@ -1,7 +1,7 @@
 ---
 title:		"VMware Fusion Code Signing Bug"
 subtitle:	"Updating VMware Fusion broke its code signature"
-excerpt:	"VMware have released an update to Fusion. The update addresses a bug which would cause the code signature of the VMware Fusion application bundle to be broken after applying updates."
+excerpt:	"VMware have released Fusion 11.5. The update addresses a bug which would cause the code signature of the VMware Fusion application bundle to be broken after applying updates."
 share-img:	"/img/posts/..."
 image:		"/img/posts/vmware-bug/vmware.png"
 tags:		[VMware, Bug]
