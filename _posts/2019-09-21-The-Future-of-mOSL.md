@@ -76,7 +76,7 @@ Currently mOSL is limited to settings which can be changed via system binaries. 
 
 ## Conclusion
 
-Swift 5, [released earlier this year](https://swift.org/blog/swift-5-released/) is now Application Binary Interface (ABI) and as a result the runtime is now bundled with every Apple operating system (OS). This means that mOSL written in Swift 5 will run a fresh installs of macOS Catalina and later.
+Swift 5, [released earlier this year](https://swift.org/blog/swift-5-released/) is now Application Binary Interface (ABI) stable and as a result the runtime is now bundled with every Apple operating system (OS). This means that mOSL written in Swift will run on fresh installs of macOS Catalina and later.
 
 Finally, I'd like to thank [Richie Cyrus](https://twitter.com/rrcyrus) for taking the time to chat to me about his experience with porting his tool [Venator](https://github.com/richiercyrus/Venator) from Python to Swift. 
 
