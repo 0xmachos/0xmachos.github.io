@@ -68,6 +68,8 @@ Currently the executable component of mOSL, [Lockdown](), is signed using [Minis
 
 You can actually [code sign a Bash script](https://carlashley.com/2018/09/23/code-signing-scripts-for-pppc-whitelisting/) (or any text file) using `codesign`. However the signature is attached to the file as an Extended Attribute (XA) and unfortunately Git doesn't track XAs.
 
+With a fully fledged macOS Application/ Command Line Tool I can properly code sign/ notarise mOSL with my Apple Developer certificate. This is a massive win. 
+
 ## More Power
 
 Currently mOSL is limited to settings which can be changed via system binaries. I've not researched this yet but I suspect that using system APIs will enable mOSL to audit and fix more settings.
