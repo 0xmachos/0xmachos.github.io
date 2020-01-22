@@ -16,7 +16,7 @@ Git [allows us to specify](https://git-scm.com/docs/gitignore) a global gitignor
 
 ## Global `.gitignore`
 Create ([and populate](https://gist.github.com/octocat/9257657)) your global gitignore file.
-In my [dotfiles repo](https://github.com/0xmachos/dotfiles) I've called mine `.gitignore_global` then symlinked it into my home directory as `.gitignore`. 
+In my [dotfiles repo](https://github.com/0xmachos/dotfiles) I've [called mine](https://github.com/0xmachos/dotfiles/blob/master/.gitignore_global) `.gitignore_global` then symlinked it into my home directory as `.gitignore`. 
 
 ```
 ln -s /Users/0xmachos/Documents/Projects/dotfiles/.gitignore_global /Users/0xmachos/.gitignore
