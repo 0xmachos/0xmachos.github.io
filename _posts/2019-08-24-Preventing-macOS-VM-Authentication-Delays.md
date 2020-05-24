@@ -1,9 +1,13 @@
 ---
-title:		"Preventing macOS VM Authentication Delays"
-subtitle:	"A quick fix"
+title:		"[Deprecated] Preventing macOS VM Authentication Delays"
+subtitle:	"A [no longer needed] quick fix"
 excerpt:	"When you virtualise macOS on a host with a Secure Enclave Processor the virtualised OS looks for the SEP to perform authentication actions. As described below by @macshome this leads to a delay whenever you try to perform some authentication actions via the UI.  "
 tags:		[VMware]
 ---
+
+# Deprecated (May 2020)
+
+This is **no longer required** when using **VMware Fusion ≥ 11.5**.
 
 # Problem 
 
