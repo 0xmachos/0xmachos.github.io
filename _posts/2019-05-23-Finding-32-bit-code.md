@@ -48,6 +48,8 @@ This finds significantly more 32-bit code:
 /System/Library/Printers/Libraries/libConverter.dylib
 ```
 
-Base on my limited testing I'd advise following Rich's recommendation, use `mdfind` to find 32-bit code.
+Spotlight doesn't work well for checking frameworks and plugins. 
+
+Check out [Howard Oakley](https://twitter.com/howardnoakley)'s "[How to find all your 32-bit apps](https://eclecticlight.co/2019/05/22/how-to-find-all-your-32-bit-apps-a-non-buyers-guide/)" for more robust solutions.
 
 {% include figure image_path="/img/dogs/dachshund01.jpg" alt="Dachshund photo by Carissa Weiser on Unsplash" caption="Photo by Carissa Weiser on Unsplash" %}
