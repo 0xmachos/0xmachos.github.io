@@ -107,13 +107,13 @@ See [Preventing macOS VM Authentication Delays](https://0xmachos.github.io/2019-
 * [FireEye Monitor](https://www.fireeye.com/services/freeware/monitor.html)
     * Doesn’t work on Catalina (`10.15.x`)
 * [Crescendo](https://github.com/SuprHackerSteve/Crescendo)
-	* Only works on Catalina as it uses the Endpoint Security Framework
+	* Only works on Catalina as it uses the Endpoint Security Framework (ESF)
 * [Appmon](https://bitbucket.org/xorrior/appmon/src/master/)
-    * Only works on Catalina as it uses the Endpoint Security Framework
+    * Only works on Catalina as it uses the ESF
 * [ProcessMonitor](https://objective-see.com/products/utilities.html#ProcessMonitor)
-    * Only works on Catalina as it uses the Endpoint Security Framework
+    * Only works on Catalina as it uses the ESF
 * [FileMonitor](https://objective-see.com/products/utilities.html#FileMonitor)
-    * Only works on Catalina as it uses the Endpoint Security Framework
+    * Only works on Catalina as it uses the ESF
 
 ## Builtin Tools
 
