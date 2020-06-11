@@ -60,6 +60,7 @@ See [Preventing macOS VM Authentication Delays](https://0xmachos.github.io/2019-
 ## macOS Install
 
 1. Boot the VM 
+  * Take Snapshot
 2. Select a language
 3. Select “Install macOS” option in the “macOS Utilities” window then click “Continue“
 4. Agree to the terms/ license
@@ -75,6 +76,7 @@ See [Preventing macOS VM Authentication Delays](https://0xmachos.github.io/2019-
 13. Disable Location Services
 14. Select your time zone
 15. Disable **all** analytics
+16. Take Snapshot
 
 ## Install VMWare Tools
 
