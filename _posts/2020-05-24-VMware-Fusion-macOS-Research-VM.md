@@ -81,6 +81,7 @@ See [Preventing macOS VM Authentication Delays](https://0xmachos.github.io/2019-
 ## Install VMWare Tools
 
 1. Virtual Machine > Install VMware Tools
+ * Take Snapshot
 2. Click “Install”
 3. Double click “Install VMware Tools” package
 4. Follow the installer instructions (the defaults are all fine)
