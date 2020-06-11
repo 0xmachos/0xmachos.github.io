@@ -9,6 +9,8 @@ tags:		[VMware, Guide]
 
 If you're at university you can get VMware Fusion (Henceforth “Fusion”) free or at a discounted price via [OnTheHub](https://onthehub.com/download/software-discounts/vmware). 
 
+Snapshot liberally! 
+
 ## Initial Setup
 
 (Alternatively you can use [vfuse](https://github.com/chilcote/vfuse) by [Joseph Chilcote](https://twitter.com/chilcote))
