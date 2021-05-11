@@ -17,13 +17,13 @@ I recently configured Pi-hole for DNS based ad blocking alongside Unbound for lo
 
 Pi-hole is a caching and forwarding DNS server. 
 
-In the DNS hierarchy it's the lowest level of DNS server. When a device makes a DNS request Pi-hole will check if it has an response for that domain in its cache. If it does have a cached response it will reply to the device with it. However if it doesn't have a cached response it will forward the DNS request to whichever server(s) are configured as its upstream DNS servers. These upstream DNS servers are typically Google (`8.8.8.8`) or Cloudflare (`1.1.1.1`). In DNS vernacular these upstream servers are known as recursive resolvers, they will recursively traverse and query the DNS server hierarchy until get an authoritative response. 
+In the DNS hierarchy it's the lowest level of DNS server. When a device makes a DNS request Pi-hole will check if it has a response for that domain in its cache. If it does have a cached response it will reply to the device with it. However if it doesn't have a cached response it will forward the DNS request to whichever server(s) are configured as its upstream DNS servers. These upstream DNS servers are typically Google (`8.8.8.8`) or Cloudflare (`1.1.1.1`). In DNS vernacular these upstream servers are known as recursive resolvers, they will recursively traverse and query the DNS server hierarchy until get an authoritative response. 
 
 For more, Cloudflare have a good explainer ["What is DNS?"](https://www.cloudflare.com/learning/dns/what-is-dns) on how these types of DNS servers fit together. 
 
 ### Why We Want Pi-hole
 
-The thing that makes Pi-hole unique is it's web based User Interface (UI) and ability to load in block-lists. This is the sinkhole element of Pi-hole. Before it serves an IP address from its cache, or forwards it on, it consults block and allow lists. These lists enable us to block (sinkhole) certain domains so that the IP address returned to the requesting device is `0.0.0.0 ` (See: [Blocking mode](https://docs.pi-hole.net/ftldns/blockingmode/)). This prevents the requesting device from connecting to the blocked domain, thus blocking ads or whatever else was being served from that domain.
+The thing that makes Pi-hole unique is its web based User Interface (UI) and ability to load in block-lists. This is the sinkhole element of Pi-hole. Before it serves an IP address from its cache, or forwards it on, it consults block and allow lists. These lists enable us to block (sinkhole) certain domains so that the IP address returned to the requesting device is `0.0.0.0 ` (See: [Blocking mode](https://docs.pi-hole.net/ftldns/blockingmode/)). This prevents the requesting device from connecting to the blocked domain, thus blocking ads or whatever else was being served from that domain.
 
 ## Unbound
 
@@ -45,7 +45,7 @@ The problem outlined above has already been considered by the folks who keep the
 
 You can read more about ECS in Google's Public DNS article ["EDNS Client Subnet (ECS) Guidelines"](https://developers.google.com/speed/public-dns/docs/ecs), I also found this article ["EDNS Client-Subnet"](https://kazoo.ga/edns-client-subnet/) by Stephen Yip extremely useful.
 
-It should be noted however that the use of Client Subnet in DNS Queries (ECS) and recursive resolver location proximity to requesting device may not have a large impact. This is thanks to AnyCast which resolves a domain to the same IP globally and requesting devices are directed to the nearest server at the network layer. Public DNS operators like Google and Cloudflare already deploy AnyCast. 
+It should be noted however that the use of Client Subnet in DNS Queries (ECS) and recursive resolver location proximity to requesting devices may not have a large impact. This is thanks to AnyCast which resolves a domain to the same IP globally and requesting devices are directed to the nearest server at the network layer. Public DNS operators like Google and Cloudflare already deploy AnyCast. 
 
 You can read more about AnyCast in Cloudflare's ["What is Anycast?"](https://www.cloudflare.com/en-gb/learning/cdn/glossary/anycast-network/) article.
 
@@ -70,7 +70,7 @@ I also want to be able to connect to other devices on that network. While Tailsc
 
 ## Raspberry Pi Setup
 
-Since this will be a headless host and only used for a few specific tasks I opted for Raspberry Pi OS Lite which comes in at less than 500MB. Along side this I downloaded the [official Raspberry Pi Imager](https://www.raspberrypi.org/software/) to install Raspberry Pi OS onto the Micro SD card.
+Since this will be a headless host and only used for a few specific tasks I opted for Raspberry Pi OS Lite which comes in at less than 500MB. Alongside this I downloaded the [official Raspberry Pi Imager](https://www.raspberrypi.org/software/) to install Raspberry Pi OS onto the Micro SD card.
 
 ## Enabling SSH on Raspberry Pi OS
 
@@ -141,7 +141,7 @@ Navigate to the [DNS tab](https://login.tailscale.com/admin/dns) of the Admin co
 
 By default Pi-hole listens for DNS queries on all interfaces but with a max distance of 1 hop, devices on the local network only. We need to adjust the "Pi-hole Interface listening behavior" to "Listen on all interfaces, permit all origins".
 
-You can do this via the commandline by executing:
+You can do this via the command line by executing:
 
 ```shell
 pihole -a interface all
@@ -153,7 +153,7 @@ Or via the web UI as seen below.
 	<figcaption>Pi-hole Interface listening behavior web UI</figcaption>
 </figure>
 
-When I run `traceroute` from my Pi-hole host to the IP address of my iPhone connected to Tailscale it shows as 1 hop so I would expected the default option to work however in my testing DNS resolution only works when permit all origins is enabled. No idea why this happens.
+When I run `traceroute` from my Pi-hole host to the IP address of my iPhone connected to Tailscale it shows as 1 hop so I would expect the default option to work however in my testing DNS resolution only works when permit all origins is enabled. No idea why this happens.
 
 As the Pi-hole web UI says do not enable this option if your Pi-hole host is exposed to the internet or you forward port `53` on your router to your Pi-hole host.
 
@@ -174,7 +174,7 @@ This is as much a note to myself as it is a post for others. Be careful when you
 
 I highly recommend the [Tailscale blog](https://tailscale.com/blog/) especially their latest post ["The Sisyphean Task Of DNS Client Config on Linux"](https://tailscale.com/blog/sisyphean-dns-client-linux/) which you're going to want to pour a stiff drink for because nobody should cry about DNS resolution while sober.
 
-Since I've been banging on about DNS, I'd like to take this opportunity to pay tribute to [Dan Kaminsky](https://twitter.com/dakami) who sadly died on April 23rd 2021. I never knew him but I throughly enjoyed reading his work and the stories about him on Twitter after his death. You can find a wonderful obituary of him in the New York Times ["Daniel Kaminsky, Internet Security Savior, Dies at 42"](https://www.nytimes.com/2021/04/27/technology/daniel-kaminsky-dead.html) by Nicole Perlroth.
+Since I've been banging on about DNS, I'd like to take this opportunity to pay tribute to [Dan Kaminsky](https://twitter.com/dakami) who sadly died on April 23rd 2021. I never knew him but I thoroughly enjoyed reading his work and the stories about him on Twitter after his death. You can find a wonderful obituary of him in the New York Times ["Daniel Kaminsky, Internet Security Savior, Dies at 42"](https://www.nytimes.com/2021/04/27/technology/daniel-kaminsky-dead.html) by Nicole Perlroth.
 
 Thanks to [0xNige](https://twitter.com/0xNige) and [Sheldorr](https://twitter.com/Sheldorr) for reviewing this post.
 
