@@ -88,7 +88,7 @@ Next `path_helper` iterates through the files in `/etc/paths.d/` and appends the
 My `/etc/pathd.s/` looks like:
 
 ```shell
-$ ls /etc/paths.d                                                                                                                                                                                                                         
+$ ls /etc/paths.d
 100-rvictl* MacGPG2     TeX
 ```
 
@@ -97,7 +97,7 @@ According to the `path_helper` man page:
 
 As an example, this is what `/etc/paths.d/MacGPG2` contains:
 ```shell
- $ cat /etc/paths.d/MacGPG2                                                                                                                                                                                                              
+$ cat /etc/paths.d/MacGPG2
 /usr/local/MacGPG2/bin
 ```
 
