@@ -60,7 +60,7 @@ fi
 
 > The path_helper utility reads the contents of the files in the directories /etc/paths.d and /etc/manpaths.d and appends their contents to the PATH and MANPATH environment variables respectively. 
 
-## How does `path_helper` construct `$PATH`
+## How does `path_helper` construct `$PATH`?
 
 Before any setup happens the default `$PATH` is 
 ```shell
