@@ -179,7 +179,7 @@ Since I've been banging on about DNS, I'd like to take this opportunity to pay t
 Thanks to [0xNige](https://twitter.com/0xNige) and [Sheldorr](https://twitter.com/Sheldorr) for reviewing this post.
 
 <figure align="center">
-	<img src="/img/dogs/dog4.jpg" alt="Pi-hole Interface listening behavior web UI"/>
+	<img src="/img/dogs/dog4.jpg"/>
 	<figcaption>Photo by <a href="https://unsplash.com/@designbytholen">Regine Tholen</a> on <a href="https://unsplash.com">Unsplash</a></figcaption>
 </figure>
 
