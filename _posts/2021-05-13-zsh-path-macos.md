@@ -146,7 +146,7 @@ This a Hello, World! Example.
 
 We can see how each variable is assigned and how they're expanded into `echo` as well as the final output of `echo`. 
 
-(Counterintuitive, `set -` enables an option while `set +` disables it 🤷‍♂️)
+(Counterintuitively, `set -` enables an option while `set +` disables it 🤷‍♂️)
 
 
 ### Debugging `.zshenv`
