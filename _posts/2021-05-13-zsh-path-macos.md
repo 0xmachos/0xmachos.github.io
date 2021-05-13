@@ -85,7 +85,7 @@ PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:
 
 Next `path_helper` iterates through the files in `/etc/paths.d/` and appends them to the default `$PATH`.
 
-My `/etc/pathd.s/` looks like:
+My `/etc/paths.d/` looks like:
 
 ```shell
 $ ls /etc/paths.d
