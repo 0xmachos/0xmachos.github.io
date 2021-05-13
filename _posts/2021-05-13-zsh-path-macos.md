@@ -12,7 +12,7 @@ I ran into some issues with my `$PATH` the other day while trying to work with R
 
 <blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">Am I being an idiot or is impossible to get paths to the front of your <a href="https://twitter.com/search?q=%24PATH&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$PATH</a> on Big Sur because of /usr/libexec/path_helper? <br><br>How do you get e.g. /usr/local/opt/ruby/bin to the front of your path? When I add it to .zshrc path_helper comes along and fucks them to the end</p>&mdash; mikey (@0xmachos) <a href="https://twitter.com/0xmachos/status/1392139097657991170">May 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I put all the code building my `$PATH` in `.zshenv` but for some reason I wasn't able to get my custom paths to beginning of `$PATH`. 
+I put all the code building my `$PATH` in `.zshenv` but for some reason I wasn't able to get my custom paths to the beginning of `$PATH`. 
 
 This is an issue as macOS ships with a version of Ruby at `/usr/bin/ruby`, so any invocation of `ruby` is going to call the macOS version not the version I've installed via `brew`. 
 
