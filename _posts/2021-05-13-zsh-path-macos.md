@@ -1,6 +1,6 @@
 ---
 title:		"How $PATH is Constructed on macOS"
-subtitle:	"How a quick fix escalated into a blog post"
+subtitle:	"A quick fix that escalated into a blog post"
 excerpt:	"I ran into some issues with my $PATH the other day while trying to work with Ruby. This prompted me to investigate how $PATH is constructed by Zsh/ macOS."
 tags:		[macOS, Shell, Zsh]
 ---
