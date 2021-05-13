@@ -1,7 +1,7 @@
 ---
 title:		"Pi-hole, Unbound & Tailscale"
 subtitle:	"How to configure a mesh VPN with your own DNS"
-excerpt:	"Template excerpt yo."
+excerpt:	"I recently configured Pi-hole for DNS based ad blocking alongside Unbound for local recursive DNS resolution and then plugged it into Tailscale to enable access from anywhere. This is a quick guide for others and note to myself on how to achieve the same setup."
 tags:		[Guide]
 ---
 
