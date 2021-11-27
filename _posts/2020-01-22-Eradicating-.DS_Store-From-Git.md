@@ -5,7 +5,7 @@ excerpt:	"What if we could globally ignore .DS_Store rather than adding it to ev
 tags:		[Git]
 ---
 
-Every directory on macOS gets a `.DS_Store` file to tell Finder how it should display it. 99% of the time we don't want to include `.DS_Store` files in our repositories so we [add](https://github.com/0xmachos/0xmachos.github.io/commit/2be455f8fb94adc4f8394fd749f1c4ac9da2cc17) `.DS_Store` [to our projects](https://github.com/0xmachos/OSINT/commit/548e4de7f3fbe5f670d4fbc0ac8a59c8dd08951a) `.gitignore` file.
+Every directory on macOS gets a [`.DS_Store`](https://eclecticlight.co/2021/11/27/explainer-ds_store-files/) file to tell Finder how it should display it. 99% of the time we don't want to include `.DS_Store` files in our repositories so we [add](https://github.com/0xmachos/0xmachos.github.io/commit/2be455f8fb94adc4f8394fd749f1c4ac9da2cc17) `.DS_Store` [to our projects](https://github.com/0xmachos/OSINT/commit/548e4de7f3fbe5f670d4fbc0ac8a59c8dd08951a) `.gitignore` file.
 
 What if we could globally ignore `.DS_Store` rather than adding it to every repository's `.gitignore` file?
 
