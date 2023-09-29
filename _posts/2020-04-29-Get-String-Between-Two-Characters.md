@@ -2,7 +2,7 @@
 title:		"Get String Between Two Characters"
 subtitle:	"A simple regex"
 excerpt:	"By default awk splits strings into columns based on whitespace. We can tell awk to use a different input field separator (IFS) via the -F option."
-tags:		[Awk, Regex, Shell]
+tags:		[Awk, Regex, Shell, TIL]
 ---
 
 Let's use the [EICAR test file](https://en.wikipedia.org/wiki/EICAR_test_file) as an example.
