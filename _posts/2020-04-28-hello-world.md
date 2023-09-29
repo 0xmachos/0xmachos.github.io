@@ -2,7 +2,7 @@
 title:      "Hello World, TIL!"
 subtitle:	""
 excerpt:    ""
-tags: 		[Admin]
+tags: 		[Admin, TIL]
 ---
 
 This will be a collection of concise write-ups on small things I learn day to day. You can find TIL posts via the [TIL tag](https://0xmachos.com/tags/#TIL).
