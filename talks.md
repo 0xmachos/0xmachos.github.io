@@ -4,6 +4,16 @@ title: "Talks"
 excerpt: "Talks I've given"
 ---
 
+## 2023
+  - Modern macOS Malware
+    - @ [Securi-Tay 2023](https://2023.securi-tay.co.uk) (Lightning) (March 3) 
+
+## 2022
+  - Delusions of Operational Security
+    - @ [DC44141](https://twitter.com/DC44141) (December 5)
+    - @ [Securi-Tay X](https://2022.securi-tay.co.uk) (March 4) 
+
+
 ## 2019
   - ISIS Online: Junaid Hussain[^1]:
     - @ [BSides London](https://www.securitybsides.org.uk) (June 5)
