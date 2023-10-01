@@ -2,7 +2,7 @@
 title:		"macOS USB Installer"
 subtitle:	"No Third Party Software Required"
 excerpt:	"You can create a bootable USB to install macOS with one command, without any third party software."
-tags:		[macOS, TIL]
+tags:		[TIL]
 ---
 
 # macOS USB Installer
