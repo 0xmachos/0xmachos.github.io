@@ -41,7 +41,7 @@ In their "[What's new for enterprise in macOS Sonoma](https://support.apple.com/
 
 > Touch ID can be allowed for `sudo` with a configuration that persists across software updates using `/etc/pam.d/sudo_local`. See `/etc/pam.d/sudo_local.template` for details.
 
-![no-alignment](/img/posts/about-time.png)
+![no-alignment](/img/posts/about-time.gif)
 
 Finally! 
 
@@ -51,12 +51,11 @@ To match the rest of the PAM configuration files in `/etc/pam.d/`, `sudo_local` 
 
 * owner = `root`
 * group = `wheel`
-* permission read only (`444`)
+* read only (`444`)
 
 
 I've got a quick shell script that will do all this for you [0xmachos/macos-scripts/enable-touchid-sudo](https://github.com/0xmachos/macos-scripts/blob/master/enable-touchid-sudo).
 
 
 ![no-alignment](/img/dogs/dog7.jpg)
-
 Photo by <a href="https://unsplash.com/@alexandra_photography">Alexandra Lau</a> on <a href="https://unsplash.com/photos/YRUzuSC48Zs">Unsplash</a>
