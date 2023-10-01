@@ -20,7 +20,7 @@ All you had to do was add the following to `/etc/pam.d/sudo` and you could use T
 auth       sufficient     pam_tid.so
 ```
 
-![no-alignment](/img/posts/touchid-sudo.png)
+![center-aligned-image](/img/posts/touchid-sudo.png){: .align-center}
 
 The only issue with this is that `/etc/pam.d/sudo` is overwritten on every macOS update. Major, minor or patch; it is always overwritten and reset back to its default state.
 
@@ -41,9 +41,7 @@ In their "[What's new for enterprise in macOS Sonoma](https://support.apple.com/
 
 > Touch ID can be allowed for `sudo` with a configuration that persists across software updates using `/etc/pam.d/sudo_local`. See `/etc/pam.d/sudo_local.template` for details.
 
-![no-alignment](/img/posts/about-time.gif)
-
-Finally! 
+![center-aligned-image](/img/posts/about-time.gif){: .align-center}
 
 All we need to do is create the file `/etc/pam.d/sudo_local` with `auth       sufficient     pam_tid.so` as its contents. 
 
