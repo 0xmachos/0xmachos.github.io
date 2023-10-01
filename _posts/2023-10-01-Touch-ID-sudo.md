@@ -12,7 +12,7 @@ Apple first shipped Touch ID for Mac in the [2016 MacBook Pros](https://support.
 
 Almost immediately [folks wrote their own](https://github.com/Reflejo/pam-touchID) pluggable authentication module (PAM) plugin modules to enable using TouchID to authenticate `sudo`.
 
-These days Apple ships a PAM plugin module with macOS, `/usr/lib/pam/pam_tid.so.2`, that can be used to enable Touch ID for `sudo`. As best [I can tell](https://apple.stackexchange.com/a/306324) this was first shipped with macOS Big Sur (`10.13`) in September 2017 but I might be wrong.
+These days Apple ships a PAM plugin module with macOS, `/usr/lib/pam/pam_tid.so.2`, that can be used to enable Touch ID for `sudo`. As best [I can tell](https://apple.stackexchange.com/a/306324) this was first shipped with macOS High Sierra (`10.13`) in September 2017 but I might be wrong.
 
 All you had to do was add the following to `/etc/pam.d/sudo` and you could use Touch ID to authenticate `sudo`.
 
