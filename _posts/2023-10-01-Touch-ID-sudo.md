@@ -5,8 +5,6 @@ excerpt:	"Touch ID can be allowed for sudo with a configuration that persists ac
 share-img:	"/img/posts/touchid.png"
 thumbnail-img:	"/img/posts/touchid.png"
 tags:		[Sonoma, Shell]
-gh-repo: 0xmachos/macos-scripts
-
 ---
 
 
