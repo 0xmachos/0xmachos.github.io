@@ -13,7 +13,9 @@ tags:       [Quarantine, Gatekeeper]
 
 Quarantine, added in OS X Leopard (`10.5`), was the forerunner to Gatekeeper. It adds the extended attribute (XA) `com.apple.quarantine` [^1] to files downloaded from the internet, so long as the downloading application is quarantine aware[^2].
 
-{% include figure image_path="/img/posts/quarantine_prompt.png" alt="Quarantine prompt" caption="Files with the extended attribute `com.apple.quarantine` will trigger this prompt when you attempt to open them." %} 
+![center-aligned-image](/img/posts/quarantine_prompt.png){: .align-center alt="Quarantine prompt"}
+Files with the extended attribute `com.apple.quarantine` will trigger this prompt when you attempt to open them.
+
 
 As well as the above prompt, the application will be subject to a full Gatekeeper check[^3]. The process of a full check is described by [Howard Oakley](https://twitter.com/howardnoakley) in [What happens when you open a quarantined app?](https://eclecticlight.co/2018/08/03/what-happens-when-you-open-a-quarantined-app/).
 
@@ -105,8 +107,8 @@ We can use `sqlite3` to run this SQL query against the database. If you'd like a
 sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2 'select DISTINCT LSQuarantineDataURLString from LSQuarantineEvent'
 ```
 
-
-{% include figure image_path="/img/dogs/dachshund0.jpg" alt="Dachshund" caption="Photo by Kurt Sunkel on Unsplash" %} 
+![center-aligned-image](/img/dogs/dachshund0.jpg){: .align-center alt="Dachshund"}
+Photo by <a href="https://unsplash.com/@labrat">Kurt Sunkel</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-adult-smooth-dapple-dachshund-prone-lying-on-green-grass-rv-6ImLX3fI">Unsplash</a>
 
 
 [^1]: [Show me your metadata: extended attributes in macOS Sierra](https://eclecticlight.co/2017/08/14/show-me-your-metadata-extended-attributes-in-macos-sierra/)

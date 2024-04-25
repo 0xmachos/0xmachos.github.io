@@ -49,7 +49,7 @@ board-id.reflectHost = "FALSE"
 
 **The `.vmx` file is included in snapshots** so you'll want to perform this edit as soon as you create your VM. If you make this change and restore a snapshot you created before editing the `.vmx` file the change won't persist, the **previous state of the `.vmx` file will be restored by the snapshot**.
 
-{% include figure image_path="/img/dogs/collie0.jpg" alt="Happy border collie with tongue out lying on grass" caption="Photo by daniel plan on Unsplash" %}
+![center-aligned-image](img/dogs/collie0.jpg){: .align-center alt="Happy border collie with tongue out lying on grass"}
+Photo by <a href="https://unsplash.com/@planiel">daniel plan</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-long-coated-black-and-white-dog-u1WcrpHk6Pg">Unsplash</a>
 
 [^1]: [Original instructions](https://github.com/0xmachos/0xmachos.github.io/commit/c8a849ba49a5bfdafd6b9037813382c2715ff9d5?short_path=f2c8ab1#diff-f2c8ab1295894b3aafa5bd8dee0d0222)
-

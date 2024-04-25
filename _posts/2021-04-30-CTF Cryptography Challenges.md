@@ -130,7 +130,7 @@ Then it was a case of using [Hash Toolkit](https://hashtoolkit.com/decrypt-md5-h
 
 Flag: `dhctf{DMU_hackers_vs_md5}`.
 
-
-{% include figure image_path="/img/dogs/dog3.jpg" alt="Dachshund sitting in grass" caption="Photo byJosephine Amalie Paysen on Unsplash" %}
+![center-aligned-image](/img/dogs/dog3.jpg){: .align-center alt="Alaskan Malamute staring into camera"}
+Photo by <a href="https://unsplash.com/@reskp">Jametlene Reskp</a> on <a href="https://unsplash.com/photos/four-assorted-color-puppies-on-window-VDrErQEF9e4">Unsplash</a>
 
 

@@ -37,5 +37,6 @@ excludesfile = ~/.gitignore
 
 You no longer have to add `.DS_Store` to every project's `.gitignore` file.
 
-{% include figure image_path="/img/dogs/group0.jpg" alt="Happy border collie with tongue out lying on grass" caption="Photo by Jametlene Reskp on Unsplash" %}
+![center-aligned-image](/img/dogs/group0.jpg){: .align-center alt="Group of 7 Border Collie puppies on a step, some of them sleeping "}
+Photo by <a href="https://unsplash.com/@reskp">Jametlene Reskp</a> on <a href="https://unsplash.com/photos/four-assorted-color-puppies-on-window-VDrErQEF9e4">Unsplash</a>
 

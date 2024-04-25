@@ -56,4 +56,5 @@ The bug is listed in the "Resolved Issues" section of the `11.5` [release notes]
 - September 16th - Update is released
 - September 21nd - I publicly disclose the bug
 
-{% include figure image_path="/img/dogs/dog2.jpg" alt="Happy border collie with tongue out lying on grass" caption="Photo by Berkay Gumustekin on Unsplash" %}
+![center-aligned-image](/img/dogs/dog2.jpg){: .align-center alt="Happy golden retriever walking down garden path"}
+Photo by Berkay Gumustekin on Unsplash

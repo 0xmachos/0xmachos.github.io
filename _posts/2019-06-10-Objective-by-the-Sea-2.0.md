@@ -90,7 +90,8 @@ P.S thanks for the free t-shirt!
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/0xmachos?ref_src=twsrc%5Etfw">@0xmachos</a> &quot;live-tweeted&quot; much of the &quot;Objective by the Sea&quot; conference (which is one of the reasons the hashtag, <a href="https://twitter.com/hashtag/OBTS?src=hash&amp;ref_src=twsrc%5Etfw">#OBTS</a>, was trending in Monaco 🤭)<br><br>For his efforts &amp; support (plus being an all-around swell chap), he won an official conf t-shirt 👕🍎🥳<br><br>Thanks again <a href="https://twitter.com/0xmachos?ref_src=twsrc%5Etfw">@0xmachos</a>! <a href="https://t.co/s1D2509EdA">pic.twitter.com/s1D2509EdA</a></p>&mdash; Objective-See (@objective_see) <a href="https://twitter.com/objective_see/status/1137874681950720001?ref_src=twsrc%5Etfw">June 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-{% include figure image_path="/img/dogs/dog0.jpg" alt="Golden in forest with sun behind" caption="Photo by Andreas Wagner on Unsplash" %}
+![center-aligned-image](/img/dogs/dog0.jpg){: .align-center alt="Golden in forest with sun behind"}
+Photo by <a href="https://unsplash.com/@waguluz_">Andreas Wagner</a> on <a href="https://unsplash.com/photos/dog-in-forest-with-sun-rays-lQl3MHtaEvc">Unsplash</a>
 
 [^1]: [com.apple.rootless.install.heritable](http://newosxbook.com/ent.jl?ent=com.apple.rootless.install.heritable&osVer=MacOS14)
 

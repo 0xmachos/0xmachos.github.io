@@ -80,5 +80,6 @@ Swift 5, [released earlier this year](https://swift.org/blog/swift-5-released/) 
 
 Finally, I'd like to thank [Richie Cyrus](https://twitter.com/rrcyrus) for taking the time to chat to me about his experience with porting his tool [Venator](https://github.com/richiercyrus/Venator) from Python to Swift. 
 
-{% include figure image_path="/img/dogs/dog1.jpg" alt="Wolf looking dog with tongue out " caption="Photo by Justin Veenema on Unsplash" %}
-
+![center-aligned-image](/img/dogs/dog1.jpg){: .align-center alt="Wolf looking dog with tongue out"}
+Photo by <a href="https://unsplash.com/@justinveenema">Justin Veenema</a> on <a href="https://unsplash.com/photos/brown-and-white-siberian-husky-standing-near-river-UlmPSBvHTY0">Unsplash</a>
+  

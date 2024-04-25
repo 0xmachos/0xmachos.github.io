@@ -6,7 +6,8 @@ share-img:	"/img/posts/mojave-32-bit-apps.png"
 tags:		[Mojave]
 ---
 
-{% include figure image_path="/img/posts/mojave-32-bit-apps.png" alt="2018 Platform State of the Union" caption="2018 Platform State of the Union" %} 
+![center-aligned-image](/img/posts/mojave-32-bit-apps.png){: .align-center alt="2018 Platform State of the Union"}
+2018 Platform State of the Union 
 
 During the [Platform State of the Union](https://developer.apple.com/videos/play/wwdc2018-102/?time=1179) at WWDC 2018 Apple confirmed that macOS Mojave (`10.14.x`) will be the [last version of macOS to run 32-bit code](https://support.apple.com/en-gb/HT208436).
 
@@ -52,4 +53,5 @@ Spotlight doesn't work well for checking frameworks and plugins.
 
 Check out [Howard Oakley](https://twitter.com/howardnoakley)'s "[How to find all your 32-bit apps](https://eclecticlight.co/2019/05/22/how-to-find-all-your-32-bit-apps-a-non-buyers-guide/)" for more robust solutions.
 
-{% include figure image_path="/img/dogs/dachshund01.jpg" alt="Dachshund photo by Carissa Weiser on Unsplash" caption="Photo by Carissa Weiser on Unsplash" %}
+![center-aligned-image](/img/dogs/dachshund01.jpg){: .align-center alt="Dachshund"}
+Photo by <a href="https://unsplash.com/@carissaweiser">Carissa Weiser</a> on <a href="https://unsplash.com/photos/black-and-tan-puppy-sitting-on-gray-fabric-chair-taJT2K33OW8">Unsplash</a>
