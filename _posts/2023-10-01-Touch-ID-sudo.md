@@ -3,7 +3,7 @@ title:		"Persistent Touch ID for sudo"
 subtitle:	"A macOS Sonoma Bonus Feature"
 excerpt:	"Touch ID can be allowed for sudo with a configuration that persists across software updates using /etc/pam.d/sudo_local."
 share-img:	"/img/posts/touchid.png"
-image:		"/img/posts/touchid.png"
+thumbnail-img:	"/img/posts/touchid.png"
 tags:		[Sonoma, Shell]
 ---
 

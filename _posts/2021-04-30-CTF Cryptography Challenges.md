@@ -3,7 +3,7 @@ title:		"CTF Writeup"
 subtitle:	"Crypto Challenges Writeup"
 excerpt:	"GCHQ's CyberChef tool is used extensively throughout this post."
 share-img:	"/img/posts/ctf-crypto/crypto.jpg"
-image:		"/img/posts/ctf-crypto/crypto.jpg"
+thumbnail-img:		"/img/posts/ctf-crypto/crypto.jpg"
 tags:		[CTF, Crypto]
 ---
 

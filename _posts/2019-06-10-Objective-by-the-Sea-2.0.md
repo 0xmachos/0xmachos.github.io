@@ -3,7 +3,7 @@ title:		"Objective by the Sea v2.0"
 subtitle:	"Mac Security by the Sea"
 excerpt:	"I took my first trip to Monaco for Objective by the Sea v2.0. An absolutely stunning venue for an excellent conference. "
 share-img:	"/img/posts/obts2/logo.png"
-image:		"/img/posts/obts2/logo.png"
+thumbnail-img:		"/img/posts/obts2/logo.png"
 tags:		[Conference]
 ---
 

@@ -3,7 +3,7 @@ title:		"Template"
 subtitle:	"This is a Template"
 excerpt:	"Template excerpt yo."
 share-img:	"/img/posts/..."
-image:		"/img/posts/..."
+thumbnail-img:		"/img/posts/..."
 tags:		[TAG]
 ---
 

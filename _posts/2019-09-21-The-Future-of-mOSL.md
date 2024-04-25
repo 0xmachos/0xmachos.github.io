@@ -3,7 +3,7 @@ title:		"The Future of mOSL"
 subtitle:	"It's time to get schwifty"
 excerpt:	"TL;DR: mOSL will be rewritten in Swift and the Bash version will be deprecated."
 share-img:	"/img/posts/schwifty0.png"
-image:		"/img/posts/schwifty0.jpg"
+thumbnail-img:		"/img/posts/schwifty0.jpg"
 tags:		[Admin]
 ---
 

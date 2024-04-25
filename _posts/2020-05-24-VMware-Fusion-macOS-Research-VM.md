@@ -3,7 +3,7 @@ title:		"VMware Fusion macOS Research VM"
 subtitle:	"A Living Guide..."
 excerpt:	"If you're at university you can get VMware Fusion free or at a discounted price via OnTheHub"
 share-img:	"/img/posts/vmware-bug/vmware.png"
-image:		"/img/posts/vmware-bug/vmware.png"
+thumbnail-img:		"/img/posts/vmware-bug/vmware.png"
 tags:		[VMware, Guide]
 ---
 
