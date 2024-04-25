@@ -74,8 +74,8 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
- mastodon: infosec.exchange/@0xmachos
- bluesky: 0xmachos.com
+  mastodon: infosec.exchange/@0xmachos
+  bluesky: 0xmachos.com
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
