@@ -95,7 +95,7 @@ rss-description: macOS security and shell scripting
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
   linkedin: false
   vk: false
@@ -211,14 +211,13 @@ defaults:
     values:
       layout: "post"
       comments: false  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
       show-avatar: true
-      social-share: true
 
 # Exclude these files from production site
 exclude:
