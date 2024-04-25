@@ -1,4 +1,5 @@
 ---
+layout: page
 permalink: /minisign-pgp
 title: "Minisign & PGP"
 excerpt: ""

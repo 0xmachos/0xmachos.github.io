@@ -1,4 +1,5 @@
 ---
+layout: page
 permalink: /about
 title: "About Mikey"
 excerpt: ""
