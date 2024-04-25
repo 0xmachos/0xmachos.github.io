@@ -11,5 +11,5 @@ Based on and inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ![no-alignment](/img/dogs/dog0.jpg)
 
-Photo by <a href="https://unsplash.com/@dear_jondog">Jonathan Daniels</a> on Unsplash</a>
+Photo by <a href="https://unsplash.com/@dear_jondog">Jonathan Daniels</a> on Unsplash
 
